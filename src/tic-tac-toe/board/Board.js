@@ -72,7 +72,7 @@ export default function Board() {
               <Square onClick={() => handleClick(7)} value={state[7]} />
               <Square onClick={() => handleClick(8)} value={state[8]} />
             </div>
-            <button className="resetBtn" onClick={handleReset}>Reset</button>
+            <button className="resetBtn" onClick={handleReset}>Reset Game</button>
           </>
         )}
       </div>
